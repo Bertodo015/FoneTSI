@@ -1,0 +1,82 @@
+@keyframes simple-grow {
+    from {
+        font-size: 0;
+        opacity: 0;
+    }
+
+    to {
+        font-size: 24px;
+        opacity: 1;
+    }
+}
+
+@keyframes grow {
+    0% {
+        font-size: 0;
+        opacity: 0;
+    }
+
+    25% {
+        font-size: 10px;
+        opacity: 0.5;
+    }
+
+    50% {
+        font-size: 190px;
+        opacity: 0.2;
+    }
+
+    75% {
+        font-size: 20px;
+        opacity: 0.6;
+    }
+
+    100% {
+        font-size: 24px;
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        color: white;
+        opacity: 0;
+        filter: blur(5px);
+    }
+
+    20% {
+        color: white;
+        opacity: 1;
+        filter: blur(0);
+    }
+
+    40% {
+        color: #c0c0c0;
+        opacity: 1;
+        filter: blur(5px);
+    }
+
+    60% {
+        color: #c0c0c0;
+        opacity: 1;
+        filter: blur(0);
+    }
+
+    80% {
+        color: black;
+        opacity: 1;
+        filter: blur(5px);
+    }
+
+    100% {
+        color: black;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+@keyframes flip {
+    0%, 75% {
+        transform: rotateY(360deg);
+    }
+}
